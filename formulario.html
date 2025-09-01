@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <form action="resultado.php" method="post">
+                <input type="text" name="nomeAluno" placeholder="Nome do aluno" class="nome-aluno">
+                <input type="text" name="matricula" placeholder="Matrícula" class="matricula">
+                <div class="notas-container">
+                    <input type="number" name="n1" placeholder="Nota 1" class="n1">
+                    <input type="number" name="n2" placeholder="Nota 2" class="n2">
+                </div>
+                <button type="submit">Calcular média</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
